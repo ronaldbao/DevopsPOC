@@ -31,6 +31,8 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
-</verificationScript>
+
+WS.verifyElementPropertyValue(response, 'data[1].first_name', &quot;Charles&quot;)
+WS.verifyElementPropertyValue(response, 'data[1].last_name', &quot;Morris&quot;)</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

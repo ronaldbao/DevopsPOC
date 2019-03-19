@@ -16,3 +16,9 @@ import internal.GlobalVariable as GlobalVariable
 'Get User List from Mock REST API'
 response = WS.sendRequestAndVerify(findTestObject('Mock-EndPoint/DEMO-REST-GET-Users'))
 
+'Verify the first Name is Charles'
+WS.verifyElementPropertyValue(response, 'data[1].first_name', 'Charles')
+
+'Verify the last Name is Morris'
+WS.verifyElementPropertyValue(response, 'data[1].last_name', 'Morris')
+

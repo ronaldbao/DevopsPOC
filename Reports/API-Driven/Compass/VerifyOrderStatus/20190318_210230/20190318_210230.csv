@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VerifyOrderStatus,,,2019-03-18 21:02:35,2019-03-18 21:02:42,7.011s,FAILED
+,,,,,,
+Test Cases/APIDrivenTests/Compass/TestGetMilestoneTasks,,,2019-03-18 21:02:36,2019-03-18 21:02:42,6.265s,FAILED
+"response = sendRequestAndVerify(findTestObject(""Compass-EndPoint/GetOrderMilestones"", [""IS05Compass"":""flcncapp-is05asf.tsl.telus.com""]))",,Send the request to Netcracker Compass to get Order Milestone,2019-03-18 21:02:37,2019-03-18 21:02:42,5.198s,FAILED

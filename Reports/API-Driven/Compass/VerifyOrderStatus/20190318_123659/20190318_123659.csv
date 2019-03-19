@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VerifyOrderStatus,,,2019-03-18 12:37:02,2019-03-18 12:37:07,5.416s,PASSED
+,,,,,,
+Test Cases/APIDrivenTests/Compass/TestGetMilestones,,,2019-03-18 12:37:03,2019-03-18 12:37:07,4.665s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Compass-EndPoint/GetOrderMilestones"", [""IS05Compass"":""flcncapp-is05asf.tsl.telus.com""]))",,,2019-03-18 12:37:03,2019-03-18 12:37:07,3.977s,PASSED

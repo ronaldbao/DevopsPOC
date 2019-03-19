@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VerifyOrderStatus" time="5" tests="1" failures="0" errors="0">
+   <testsuite name="VerifyOrderStatus" tests="1" failures="0" errors="0" time="5" timestamp="2019-03-18 12:44:33" hostname="T916347 - L077273.corp.ads" id="Test Suites/API-Driven/Compass/VerifyOrderStatus">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\T916347\\git\\DevopsPOC\\Reports\\API-Driven\\Compass\\VerifyOrderStatus\\20190318_124430"/>
+         <property name="logFiles" value="C:\\Users\\T916347\\git\\DevopsPOC\\Reports\\API-Driven\\Compass\\VerifyOrderStatus\\20190318_124430\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="T916347 - L077273.corp.ads"/>
+         <property name="hostAddress" value="142.174.180.82"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+      </properties>
+      <testcase name="Test Cases/APIDrivenTests/Compass/TestGetMilestones" classname="Test Cases/APIDrivenTests/Compass/TestGetMilestones" status="PASSED">
+         <system-out><![CDATA[2019-03-18 12:44:33 - [TEST_CASE][PASSED] - Test Cases/APIDrivenTests/Compass/TestGetMilestones: Test Cases/APIDrivenTests/Compass/TestGetMilestones
+
+2019-03-18 12:44:34 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Compass-EndPoint/GetOrderMilestones", ["IS05Compass":"flcncapp-is05asf.tsl.telus.com"])): Send request and verify the response successfully
+
+2019-03-18 12:44:37 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-18 12:44:38 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-18 12:44:38 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-18 12:44:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].milestones[0].status", "Cancelled"): Verify element property value successfully
+
+2019-03-18 12:44:38 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-18 12:44:38 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-18 12:44:38 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-03-18 12:44:38 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].milestones[0].status", "Cancelled"): Verify element property value successfully
+
+2019-03-18 12:44:38 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-18 12:44:33 - [TEST_SUITE][PASSED] - VerifyOrderStatus: Test Cases/APIDrivenTests/Compass/TestGetMilestones]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

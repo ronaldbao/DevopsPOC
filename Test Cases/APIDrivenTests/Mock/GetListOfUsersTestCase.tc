@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Call Mock REST API to get list of users</description>
+   <name>GetListOfUsersTestCase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>890411f6-8eaf-4b89-8f39-3768a228db45</testCaseGuid>
+</TestCaseEntity>

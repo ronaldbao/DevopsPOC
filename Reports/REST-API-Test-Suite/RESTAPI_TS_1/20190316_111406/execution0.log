@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-16T11:14:15</date>
+  <millis>1552760055809</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/REST-API-Test-Suite/RESTAPI_TS_1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">RESTAPI_TS_1</property>
+  <property name="description">Rest API Test Suite 1</property>
+  <property name="id">Test Suites/REST-API-Test-Suite/RESTAPI_TS_1</property>
+</record>
+<record>
+  <date>2019-03-16T11:14:15</date>
+  <millis>1552760055951</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = L077273$ - L077273.corp.ads</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">L077273$ - L077273.corp.ads</property>
+</record>
+<record>
+  <date>2019-03-16T11:14:15</date>
+  <millis>1552760055953</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 7 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2019-03-16T11:14:15</date>
+  <millis>1552760055954</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.56.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.56.1</property>
+</record>
+<record>
+  <date>2019-03-16T11:14:15</date>
+  <millis>1552760055956</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.0.6.4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.0.6.4</property>
+</record>
+<record>
+  <date>2019-03-16T11:14:17</date>
+  <millis>1552760057304</millis>
+  <sequence>5</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/REST-API-Test-Suite/RESTAPI_TS_1</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

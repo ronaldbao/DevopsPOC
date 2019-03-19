@@ -1,0 +1,2 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RESTAPI_TS_1,,Rest API Test Suite 1,2019-03-16 11:14:15,2019-03-16 11:14:17,1.495s,PASSED

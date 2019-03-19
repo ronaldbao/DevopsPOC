@@ -4,4 +4,14 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'reqres.in'</initValue>
+      <name>Mock_REST_API_TEST_EndPoint</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'flcncapp-is05asf.tsl.telus.com'</initValue>
+      <name>IS05Compass</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

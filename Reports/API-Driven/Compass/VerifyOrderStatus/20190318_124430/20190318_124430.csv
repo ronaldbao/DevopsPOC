@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VerifyOrderStatus,,,2019-03-18 12:44:33,2019-03-18 12:44:38,5.312s,PASSED
+,,,,,,
+Test Cases/APIDrivenTests/Compass/TestGetMilestones,,,2019-03-18 12:44:33,2019-03-18 12:44:38,4.848s,PASSED
+"response = sendRequestAndVerify(findTestObject(""Compass-EndPoint/GetOrderMilestones"", [""IS05Compass"":""flcncapp-is05asf.tsl.telus.com""]))",,Send the request to Netcracker Compass to get Order Milestone,2019-03-18 12:44:34,2019-03-18 12:44:38,4.237s,PASSED
+"verifyElementPropertyValue(response, ""data[0].milestones[0].status"", ""Cancelled"")",,"Check the order status is ""Cancel""",2019-03-18 12:44:38,2019-03-18 12:44:38,0.029s,PASSED

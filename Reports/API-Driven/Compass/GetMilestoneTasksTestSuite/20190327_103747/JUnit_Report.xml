@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GetMilestoneTasksTestSuite" time="6" tests="1" failures="0" errors="0">
+   <testsuite name="GetMilestoneTasksTestSuite" tests="1" failures="0" errors="0" time="6" timestamp="2019-03-27 10:37:50" hostname="T916347 - L077273.corp.ads" id="Test Suites/API-Driven/Compass/GetMilestoneTasksTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\T916347\\git\\DevopsPOC\\Reports\\API-Driven\\Compass\\GetMilestoneTasksTestSuite\\20190327_103747"/>
+         <property name="logFiles" value="C:\\Users\\T916347\\git\\DevopsPOC\\Reports\\API-Driven\\Compass\\GetMilestoneTasksTestSuite\\20190327_103747\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="T916347 - L077273.corp.ads"/>
+         <property name="hostAddress" value="142.174.182.136"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+      </properties>
+      <testcase name="Test Cases/APIDrivenTests/Compass/TestGetMilestoneTasks" classname="Test Cases/APIDrivenTests/Compass/TestGetMilestoneTasks" status="PASSED">
+         <system-out><![CDATA[2019-03-27 10:37:51 - [TEST_CASE][PASSED] - Test Cases/APIDrivenTests/Compass/TestGetMilestoneTasks: Test Cases/APIDrivenTests/Compass/TestGetMilestoneTasks
+
+2019-03-27 10:37:51 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("Compass-EndPoint/GetOrderMilestones", ["IS05Compass":"flcncapp-is05asf.tsl.telus.com"])): Send request and verify the response successfully
+
+2019-03-27 10:37:55 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-03-27 10:37:56 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-03-27 10:37:56 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-03-27 10:37:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].milestones[0].status", "Cancelled"): Verify element property value successfully
+
+2019-03-27 10:37:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-27 10:37:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].milestones[0].tasks[0].name", "Facility Check"): Verify element property value successfully
+
+2019-03-27 10:37:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-27 10:37:56 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-03-27 10:37:56 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-03-27 10:37:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].milestones[0].status", "Cancelled"): Verify element property value successfully
+
+2019-03-27 10:37:56 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-03-27 10:37:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].milestones[0].tasks[0].name", "Facility Check"): Verify element property value successfully
+
+2019-03-27 10:37:56 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-27 10:37:50 - [TEST_SUITE][PASSED] - GetMilestoneTasksTestSuite: Test Cases/APIDrivenTests/Compass/TestGetMilestoneTasks]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

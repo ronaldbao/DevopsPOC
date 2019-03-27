@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DemoAPI-GetUsers,,,2019-03-27 11:14:27,2019-03-27 11:14:34,7.271s,FAILED
+,,,,,,
+Test Cases/APIDrivenTests/Mock/GetListOfUsersTestCase,,Call Mock REST API to get list of users,2019-03-27 11:14:27,2019-03-27 11:14:34,6.608s,FAILED
+"response = sendRequestAndVerify(findTestObject(""Mock-EndPoint/DEMO-REST-GET-Users""))",,Get User List from Mock REST API,2019-03-27 11:14:28,2019-03-27 11:14:34,5.712s,FAILED
